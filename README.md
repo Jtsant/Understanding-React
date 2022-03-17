@@ -43,4 +43,11 @@ In order now to make my date/calendar a seperate component so as to split the Ex
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/158415986-043f6b86-fbf8-4ee9-bc3b-521f561d8ce0.png)  
 ## Day 6  
 I will create another 4 components which include Expenses.js,Expenses.css,Card.js,Card.css. The goal is to create many reusable components so that we structure our user interface which is also called Composition. The Card.js component can act as a shell or a container for the ExpenseItem.js or the Expenses.js files and i can replace their opening div's with the Card component i just created. Although normally that could not work, React gives me this option by the use of {props.children} prop. ***Children is a reserved name and the value of this 'special' prop will always be the content between the opening and closing tags of my custom component.*** Now i want to make sure that a className can be set on the Card(custom) component. I have to add a classes constant inside the function Card which will look like this.
+![Screenshot_1](https://user-images.githubusercontent.com/90603989/158907330-d42cbf25-b98d-4d77-bc0d-68399c9b897c.png)  
+The files of Expenses.js,Expenses.css and Card.css are as following
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/158907332-2c516a16-6dd6-4330-b78f-97bca3dd7a1d.png)
+![Screenshot_4](https://user-images.githubusercontent.com/90603989/158907326-4dc4de82-a3a9-4ef9-8d63-eed8b7b5f174.png)
+![Screenshot_3](https://user-images.githubusercontent.com/90603989/158907318-1846e408-137f-4c60-90ed-d0b3cc643cd3.png)  
+The final result works and in my screen i can see this as intended.
+![Screenshot_5](https://user-images.githubusercontent.com/90603989/158907329-7a501b1a-263c-4884-8076-eb6db79f6a18.png)
 
