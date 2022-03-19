@@ -49,5 +49,8 @@ The files of Expenses.js,Expenses.css and Card.css are as following
 ![Screenshot_4](https://user-images.githubusercontent.com/90603989/158907326-4dc4de82-a3a9-4ef9-8d63-eed8b7b5f174.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/158907318-1846e408-137f-4c60-90ed-d0b3cc643cd3.png)  
 The final result works and in my screen i can see this as intended.
-![Screenshot_5](https://user-images.githubusercontent.com/90603989/158907329-7a501b1a-263c-4884-8076-eb6db79f6a18.png)
+![Screenshot_5](https://user-images.githubusercontent.com/90603989/158907329-7a501b1a-263c-4884-8076-eb6db79f6a18.png)  
+## Day 7  
+All the custom components that i used so far are just JSX code and do not appear on the web page if i inspect it. There is only HTML code(elements). When i use JSX i call the React.createElement method. In the past we needed to import React from 'react' in all React component files, or at least in every file that we used JSX. The modern React projects do that by default so i dont need to do it by myself. I am commenting the React.createElement method in App.js which will look like this. 
+
 
