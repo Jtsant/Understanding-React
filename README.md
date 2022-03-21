@@ -49,5 +49,15 @@ The files of Expenses.js,Expenses.css and Card.css are as following
 ![Screenshot_4](https://user-images.githubusercontent.com/90603989/158907326-4dc4de82-a3a9-4ef9-8d63-eed8b7b5f174.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/158907318-1846e408-137f-4c60-90ed-d0b3cc643cd3.png)  
 The final result works and in my screen i can see this as intended.
-![Screenshot_5](https://user-images.githubusercontent.com/90603989/158907329-7a501b1a-263c-4884-8076-eb6db79f6a18.png)
+![Screenshot_5](https://user-images.githubusercontent.com/90603989/158907329-7a501b1a-263c-4884-8076-eb6db79f6a18.png)  
+## Day 7  
+All the custom components that i used so far are just JSX code and do not appear on the web page if i inspect it. There is only HTML code(elements). When i use JSX i call the React.createElement method. In the past we needed to import React from 'react' in all React component files, or at least in every file that we used JSX. The modern React projects do that by default so i dont need to do it by myself. I am commenting the React.createElement method in App.js. Another thing is that if a project gets bigger with time i will need to organize my component files better using more folders and subfolders. I need to be careful though because when you move files into subfolders you have to adjust the imports on the files so that they match your new layout. In this current project i will create an Expenses and a UI subfolders moving Card,js, Card.css into UI and Expenses,ExpenseDate,ExpenseItem(.js,css) into Expenses subfolder. After adjusting the imports in App.js, Expenses.js and ExpenseItem.js the final output looks way more readable and easy to figure out where everthing is located. One last thing is that i can replace the functions in my project with Arrow functions because they are used by many people and it is nice to know that it can work this way too.
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/159127705-bd15cd60-7ad5-47de-b7a4-1e1ad7fd7599.png)  
+## Day 8
+I will begin now to work with events, updating the UI and work with "State". In the ExpenseItem.js file i will create a button, simple to begin with and it will put out on my screen a simple "Change the Title". In order now to add an event listener to the JSX element (the button i created) i will add inside the button a special prop which will set a value for this button and it will start with on(...). I will use the onClick so as to start with which is an event listener on click events for my button. I must also issue a value for the onClick which will be a ***function***. After creating the clickHandler function my code looks like this   
+![Screenshot_1](https://user-images.githubusercontent.com/90603989/159312134-1707f97e-bc39-413d-8c4a-6e19266b3e25.png)  
+In order to understand better how component functions are executed i will tweak my code a bit so that i can see Updated on my Dev Tools console.
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/159335305-18c79801-9b40-4b9d-b38d-e0afa098e4b8.png)
+
+
 
