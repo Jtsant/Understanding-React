@@ -57,7 +57,7 @@ All the custom components that i used so far are just JSX code and do not appear
 I will begin now to work with events, updating the UI and work with "State". In the ExpenseItem.js file i will create a button, simple to begin with and it will put out on my screen a simple "Change the Title". In order now to add an event listener to the JSX element (the button i created) i will add inside the button a special prop which will set a value for this button and it will start with on(...). I will use the onClick so as to start with which is an event listener on click events for my button. I must also issue a value for the onClick which will be a ***function***. After creating the clickHandler function my code looks like this   
 ![Screenshot_1](https://user-images.githubusercontent.com/90603989/159312134-1707f97e-bc39-413d-8c4a-6e19266b3e25.png)  
 In order to understand better how component functions are executed i will tweak my code a bit so that i can see Updated on my Dev Tools console.
-
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/159335305-18c79801-9b40-4b9d-b38d-e0afa098e4b8.png)
 
 
 
