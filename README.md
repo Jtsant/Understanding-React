@@ -64,6 +64,7 @@ In order now to run ExpenseItem multiple times i have to tell React how to do it
 ## Day 10  
 ***Another important thing to remember about the Hook useState is that "State" is really separated on a per-component instance basis.*** In order to see that i will create a console.log right after using useState in the ExpenseItem.js file and as i can see in the console of my developer tools the phrase i put in the console.log appears to have been executed 4 times, but when i change the title it appears only one.  
 ![Screenshot_1](https://user-images.githubusercontent.com/90603989/160828589-38a02ae0-c443-4948-842f-3ca295f92c64.png)  
+The next step for my project is to be able to add user form inputs so that my data can change depending on what the user might be adding or renewing. 
 
 
 
