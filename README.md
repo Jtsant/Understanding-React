@@ -67,7 +67,9 @@ In order now to run ExpenseItem multiple times i have to tell React how to do it
 The next step for my project is to be able to add user form inputs so that my data can change depending on what the user might be adding or renewing. After creating a new subfolder named NewExpense and adding more files to it i will create a whole new form for my project so that the user can input data that communicate with my project. Using some already given css files and constructing a whole new ExpenseForm file so that i can use it in many other ways, my NewExpense.js and ExpenseForm.js files look like that  
 ![Screenshot_2](https://user-images.githubusercontent.com/90603989/160869648-7431f6f5-99fe-4008-a340-be4572f7ee77.png)  
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/160869635-91dfb233-b714-4f83-8a95-e35893ea64c8.png)  
-Now the last thing remaining is to import this NewExpense to the App.js and get rid of the h2 i had created, replacing it by the NewExpense. My App.js file then becomes like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/160869641-643381d3-2b44-4764-b39a-77ba0ab12ceb.png) 
+Now the last thing remaining is to import this NewExpense to the App.js and get rid of the h2 i had created, replacing it by the NewExpense. My App.js file then becomes like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/160869641-643381d3-2b44-4764-b39a-77ba0ab12ceb.png)  
+My project now has its form where the user can insert data and looks like this  
+![Screenshot_5](https://user-images.githubusercontent.com/90603989/160870734-b25bec92-b523-4427-b648-550fee42a7be.png)
 
 
 
