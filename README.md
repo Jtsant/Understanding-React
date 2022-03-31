@@ -69,7 +69,9 @@ The next step for my project is to be able to add user form inputs so that my da
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/160869635-91dfb233-b714-4f83-8a95-e35893ea64c8.png)  
 Now the last thing remaining is to import this NewExpense to the App.js and get rid of the h2 i had created, replacing it by the NewExpense. My App.js file then becomes like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/160869641-643381d3-2b44-4764-b39a-77ba0ab12ceb.png)  
 My project now has its form where the user can insert data and looks like this  
-![Screenshot_5](https://user-images.githubusercontent.com/90603989/160870734-b25bec92-b523-4427-b648-550fee42a7be.png)
+![Screenshot_5](https://user-images.githubusercontent.com/90603989/160870734-b25bec92-b523-4427-b648-550fee42a7be.png)  
+## Day 11  
+The next step is to add listeners for every keystroke made by the user. I can do that on the element i choose by adding a prop that starts with on and then choose which event suits the instance. So in ExpenseForm.js i will add onChange in the input and by creating before a titleChangeHandler. My file then looks like this 
 
 
 
