@@ -72,6 +72,8 @@ My project now has its form where the user can insert data and looks like this
 ![Screenshot_5](https://user-images.githubusercontent.com/90603989/160870734-b25bec92-b523-4427-b648-550fee42a7be.png)  
 ## Day 11  
 The next step is to add listeners for every keystroke made by the user. I can do that on the element i choose by adding a prop that starts with on and then choose which event suits the instance. So in ExpenseForm.js i will add onChange in the input and by creating before a titleChangeHandler. My file then looks like this 
+![Screenshot_1](https://user-images.githubusercontent.com/90603989/161055723-b5104b59-a002-47fa-a947-4357c861f702.png).  
+
 
 
 
