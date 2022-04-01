@@ -76,7 +76,8 @@ The next step is to add listeners for every keystroke made by the user. I can do
 After that i will be working with multpiple states or one state istead of that. It is optional and i will be doing both methods to get to know them. My ExpenseForm.js file then is this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/161061220-d23cef1a-b08a-4ab5-8ca2-3ed1e2a9ee06.png)  
 ## Day 12  
 I will be working today on how to update state that depends on the previous state. A very important thing to remember here is that ***Whenever i update state and i need to depend on the previous state i am gonna use this function.*** ![Screenshot_1](https://user-images.githubusercontent.com/90603989/161298088-2adfa984-9165-4bc8-939f-3ac972f8ac3f.png)  
-That is the safest way to ensure that i always operate on the latest state snapshot. After commenting my code in the ExpenseForm.js file i will be going back to working with the multistate approach. By using the submit event now so as to handle form submissions by the user my code looks like this 
+That is the safest way to ensure that i always operate on the latest state snapshot. After commenting my code in the ExpenseForm.js file i will be going back to working with the multistate approach. By using the submit event now so as to handle form submissions by the user my code looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/161298898-fcac3079-32cd-4e9b-a9b6-09d51893e1f8.png)
+![Screenshot_3](https://user-images.githubusercontent.com/90603989/161298906-11f4833b-fe75-44b3-88c8-2aa5ae705788.png)
 
 
 
