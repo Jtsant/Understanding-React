@@ -73,7 +73,9 @@ My project now has its form where the user can insert data and looks like this
 ## Day 11  
 The next step is to add listeners for every keystroke made by the user. I can do that on the element i choose by adding a prop that starts with on and then choose which event suits the instance. So in ExpenseForm.js i will add onChange in the input and by creating before a titleChangeHandler. My file then looks like this 
 ![Screenshot_1](https://user-images.githubusercontent.com/90603989/161055723-b5104b59-a002-47fa-a947-4357c861f702.png).  
-After that i will be working with multpiple states or one state istead of that. It is optional and i will be doing both methods to get to know them. My ExpenseForm.js file then is this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/161061220-d23cef1a-b08a-4ab5-8ca2-3ed1e2a9ee06.png)
+After that i will be working with multpiple states or one state istead of that. It is optional and i will be doing both methods to get to know them. My ExpenseForm.js file then is this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/161061220-d23cef1a-b08a-4ab5-8ca2-3ed1e2a9ee06.png)  
+## Day 12  
+I will be working today on how to update state that depends on the previous state. A very important thing to remember here is that ***Whenever i update state and i need to depend on the previous state i am gonna use this function.***
 
 
 
