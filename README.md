@@ -79,7 +79,8 @@ I will be working today on how to update state that depends on the previous stat
 That is the safest way to ensure that i always operate on the latest state snapshot. After commenting my code in the ExpenseForm.js file i will be going back to working with the multistate approach. By using the submit event now so as to handle form submissions by the user my code looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/161298898-fcac3079-32cd-4e9b-a9b6-09d51893e1f8.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/90603989/161298906-11f4833b-fe75-44b3-88c8-2aa5ae705788.png)  
 ## Day 13  
-I will be working today on how to clear the user inputs and implementing two-way binding. I am able to do that in the ExpenseForm.js by adding the value attribute to the input element. My code then looks like this 
+I will be working today on how to clear the user inputs and implementing two-way binding. I am able to do that in the ExpenseForm.js by adding the value attribute to the input element. My code then looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/161575413-3c3d6031-e560-48e3-9e89-c6d9f8f9a48a.png)
+
 
 
 
