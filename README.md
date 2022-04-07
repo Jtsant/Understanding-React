@@ -81,7 +81,9 @@ That is the safest way to ensure that i always operate on the latest state snaps
 ## Day 13  
 I will be working today on how to clear the user inputs and implementing two-way binding. I am able to do that in the ExpenseForm.js by adding the value attribute to the input element. My code then looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/161575413-3c3d6031-e560-48e3-9e89-c6d9f8f9a48a.png)  
 My next step is to pass the data from ExpenseForm.js to the App.js component so as to work on child to parent component communication (Bottom-Up). ***A crucial concept to remember here is that props can only be passed from parent to child meaning that skipping components is not possible.*** After working with NewExpense.js and App.js files my code looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/161589542-e11462a3-c74e-456c-8865-16309da15c92.png)
-![Screenshot_2](https://user-images.githubusercontent.com/90603989/161589548-2e86ca9c-fb02-49a0-81b8-21ebab3b78f0.png)
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/161589548-2e86ca9c-fb02-49a0-81b8-21ebab3b78f0.png)  
+## Day 14  
+Working now on Lifting the State up. After creating ExpensesFilter.css and ExpensesFilter.js my Expenses.js file looks like this 
 
 
 
