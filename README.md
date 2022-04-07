@@ -85,7 +85,9 @@ My next step is to pass the data from ExpenseForm.js to the App.js component so 
 ## Day 14  
 Working now on Lifting the State up. After creating ExpensesFilter.css and ExpensesFilter.js my Expenses.js file looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162228411-08993bfc-2aa0-4627-958f-fc93029cbb68.png)
 ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162228416-227d9b92-8792-4b3f-a01b-0a5898035aef.png)  
-The concept of Lifting the state up is summarized like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/162228815-532ada53-528b-4df2-ab6d-6ec644ffbc72.png)
+The concept of Lifting the state up is summarized like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/162228815-532ada53-528b-4df2-ab6d-6ec644ffbc72.png)  
+## Day 15  
+The next step is to try and render lists of data. In my case i will be working in the Expense.js file. In order to execute dynamic expressions in my JSX code i will use single curly braces. After using a built-in array method called map(), my code looks like this 
 
 
 
