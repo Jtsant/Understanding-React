@@ -81,7 +81,16 @@ That is the safest way to ensure that i always operate on the latest state snaps
 ## Day 13  
 I will be working today on how to clear the user inputs and implementing two-way binding. I am able to do that in the ExpenseForm.js by adding the value attribute to the input element. My code then looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/161575413-3c3d6031-e560-48e3-9e89-c6d9f8f9a48a.png)  
 My next step is to pass the data from ExpenseForm.js to the App.js component so as to work on child to parent component communication (Bottom-Up). ***A crucial concept to remember here is that props can only be passed from parent to child meaning that skipping components is not possible.*** After working with NewExpense.js and App.js files my code looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/161589542-e11462a3-c74e-456c-8865-16309da15c92.png)
-![Screenshot_2](https://user-images.githubusercontent.com/90603989/161589548-2e86ca9c-fb02-49a0-81b8-21ebab3b78f0.png)
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/161589548-2e86ca9c-fb02-49a0-81b8-21ebab3b78f0.png)  
+## Day 14  
+Working now on Lifting the State up. After creating ExpensesFilter.css and ExpensesFilter.js my Expenses.js file looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162228411-08993bfc-2aa0-4627-958f-fc93029cbb68.png)
+![Screenshot_2](https://user-images.githubusercontent.com/90603989/162228416-227d9b92-8792-4b3f-a01b-0a5898035aef.png)  
+The concept of Lifting the state up is summarized like this ![Screenshot_4](https://user-images.githubusercontent.com/90603989/162228815-532ada53-528b-4df2-ab6d-6ec644ffbc72.png)  
+## Day 15  
+The next step is to try and render lists of data. In my case i will be working in the Expense.js file. In order to execute dynamic expressions in my JSX code i will use single curly braces. After using a built-in array method called map(), my code looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162233981-5aeecab7-98f9-4cfa-bd1a-cb2a75e59447.png)  
+I will be working now on updating the expenses array whenever a new expense is been added. My App.js file looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162250947-20b40ddf-e668-440a-8f00-5018f9f99601.png)  
+## Day 16  
+My project now in the developers tool shows a "unique key prop warning". I will use the key prop so that to show react where a new itm should be added and that there should be a unique value per list item ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162743940-ecbfb9d6-8146-45a3-9a8b-78c21276fdaf.png)
 
 
 
