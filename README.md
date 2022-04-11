@@ -90,7 +90,7 @@ The concept of Lifting the state up is summarized like this ![Screenshot_4](http
 The next step is to try and render lists of data. In my case i will be working in the Expense.js file. In order to execute dynamic expressions in my JSX code i will use single curly braces. After using a built-in array method called map(), my code looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162233981-5aeecab7-98f9-4cfa-bd1a-cb2a75e59447.png)  
 I will be working now on updating the expenses array whenever a new expense is been added. My App.js file looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162250947-20b40ddf-e668-440a-8f00-5018f9f99601.png)  
 ## Day 16  
-My project now in the developers tool shows a "unique key prop warning". I will use the key prop so that to show react where a new itm should be added and that there should be a unique value per list item.
+My project now in the developers tool shows a "unique key prop warning". I will use the key prop so that to show react where a new itm should be added and that there should be a unique value per list item ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162743940-ecbfb9d6-8146-45a3-9a8b-78c21276fdaf.png)
 
 
 
