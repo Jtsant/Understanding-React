@@ -91,7 +91,8 @@ The next step is to try and render lists of data. In my case i will be working i
 I will be working now on updating the expenses array whenever a new expense is been added. My App.js file looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162250947-20b40ddf-e668-440a-8f00-5018f9f99601.png)  
 ## Day 16  
 My project now in the developers tool shows a "unique key prop warning". I will use the key prop so that to show react where a new itm should be added and that there should be a unique value per list item ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162743940-ecbfb9d6-8146-45a3-9a8b-78c21276fdaf.png)  
-Now in order to output conditional content so that i can have different output on different occasions i will work in the Expenses.js file. ***Another thing to keep in mind is that i can store JSX code in variables.*** I will do it in two ways so that i can have a clean snippet with one. My file then looks like this  
+Now in order to output conditional content so that i can have different output on different occasions i will work in the Expenses.js file. ***Another thing to keep in mind is that i can store JSX code in variables.*** I will do it in two ways so that i can have a clean snippet with one. My file then looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162769873-d98679dc-1c89-4bbf-bcb3-ac11e6fdbb01.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162769863-f728aabb-b078-4e85-b9df-6d956e530e1a.png)
+
 
 
 
