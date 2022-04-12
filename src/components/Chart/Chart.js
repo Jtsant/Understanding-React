@@ -1,5 +1,21 @@
-import React from 'react';
+import React from "react";
 
-const Chart = props => {};
+import ChartBar from "./ChartBar";
+import "./Chart.css";
 
-export default Chart; 
+const Chart = (props) => {
+  return (
+    <div className="chart">
+      {props.dataPoints.map((dataPoint) => (
+        <ChartBar
+          key={dataPoint.label}
+          value={dataPoint.Point.value}
+          maxValue={null}
+          label={dataPoint.label}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Chart;
