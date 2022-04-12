@@ -100,6 +100,8 @@ i will try to create a new "Add New Expense" button so that the user has the abi
 ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162967919-f517770e-4d64-4e69-8efc-f08d44d130d8.png)  
 ## Day 19  
 The next step is to create a chart so that my date be appear in a way that i want them to be. I will be creating 4 more files Chart.js, Chart.css, ChartBar.js and ChartBar.css in order to achieve what i want. After the css files are set i will be working with Chart.js and ChartBar.js. The Chart.js file is this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162981497-ded3f508-5df3-4adc-b69a-ebfda0631c2e.png)  
+In the ChartBar.js after working with everything i know this far i will try to set the style of the element dynamically inside the "divs". My file then lays out as follows ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162982022-26e5ce37-6bdb-42c8-9248-c57a319caedd.png)  
+The last thing i will need is to pass the data points so that my chart takes form in the app.
 
 
 
