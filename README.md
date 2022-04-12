@@ -96,8 +96,10 @@ Now in order to output conditional content so that i can have different output o
 In order now to add conditional return statements, i will extract the list logic i created in the Expenses.js file into a new component called ExpensesList.js and style it with an additional ExpenseList.css file. My ExpenseList.js and Expenses.js files then turn out like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162782316-8446fdcd-2bfa-4f4d-a61c-98371facc61b.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162782310-67fe874a-5920-4272-937f-9952ed57a9eb.png)  
 I can clearly see now when my app is running that Found no expenses is more visble to the user and looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162782314-1c4e9791-bf22-4809-a787-59bec89c34ee.png)  
 ## Day 18  
-i will try to create a new "Add New Expense" button so that the user has the ability to add a new one or to cancel if he wants to. In the ExpenseForm.js file i will be adding a new button using onClick. In NewExpense.js my code will be looking like this
-
+i will try to create a new "Add New Expense" button so that the user has the ability to add a new one or to cancel if he wants to. In the ExpenseForm.js file i will be adding a new button using onClick. In NewExpense.js my code will be looking like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162967913-68eb6cf5-9b9f-4d72-b030-dd1f2ca9fa9c.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162967907-47037f5f-57c1-464a-90a3-e4f70f5d3b8e.png) 
+![Screenshot_1](https://user-images.githubusercontent.com/90603989/162967919-f517770e-4d64-4e69-8efc-f08d44d130d8.png)  
+## Day 19  
+The next step is to create a chart so that my date be appear in a way that i want them to be. I will be creating 4 more files Chart.js, Chart.css, ChartBar.js and ChartBar.css in order to achieve what i want. After the css files are set i will be working with Chart.js and ChartBar.js. The Chart.js file is this
 
 
 
