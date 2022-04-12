@@ -99,7 +99,8 @@ I can clearly see now when my app is running that Found no expenses is more visb
 i will try to create a new "Add New Expense" button so that the user has the ability to add a new one or to cancel if he wants to. In the ExpenseForm.js file i will be adding a new button using onClick. In NewExpense.js my code will be looking like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162967913-68eb6cf5-9b9f-4d72-b030-dd1f2ca9fa9c.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162967907-47037f5f-57c1-464a-90a3-e4f70f5d3b8e.png) 
 ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162967919-f517770e-4d64-4e69-8efc-f08d44d130d8.png)  
 ## Day 19  
-The next step is to create a chart so that my date be appear in a way that i want them to be. I will be creating 4 more files Chart.js, Chart.css, ChartBar.js and ChartBar.css in order to achieve what i want. After the css files are set i will be working with Chart.js and ChartBar.js. The Chart.js file is this
+The next step is to create a chart so that my date be appear in a way that i want them to be. I will be creating 4 more files Chart.js, Chart.css, ChartBar.js and ChartBar.css in order to achieve what i want. After the css files are set i will be working with Chart.js and ChartBar.js. The Chart.js file is this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162981497-ded3f508-5df3-4adc-b69a-ebfda0631c2e.png)  
+
 
 
 
