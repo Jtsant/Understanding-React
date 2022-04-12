@@ -94,7 +94,9 @@ My project now in the developers tool shows a "unique key prop warning". I will 
 Now in order to output conditional content so that i can have different output on different occasions i will work in the Expenses.js file. ***Another thing to keep in mind is that i can store JSX code in variables.*** I will do it in two ways so that i can have a clean snippet with one. My file then looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162769873-d98679dc-1c89-4bbf-bcb3-ac11e6fdbb01.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162769863-f728aabb-b078-4e85-b9df-6d956e530e1a.png)  
 ## Day 17  
 In order now to add conditional return statements, i will extract the list logic i created in the Expenses.js file into a new component called ExpensesList.js and style it with an additional ExpenseList.css file. My ExpenseList.js and Expenses.js files then turn out like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/162782316-8446fdcd-2bfa-4f4d-a61c-98371facc61b.png) ![Screenshot_2](https://user-images.githubusercontent.com/90603989/162782310-67fe874a-5920-4272-937f-9952ed57a9eb.png)  
-I can clearly see now when my app is running that Found no expenses is more visble to the user and looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162782314-1c4e9791-bf22-4809-a787-59bec89c34ee.png)
+I can clearly see now when my app is running that Found no expenses is more visble to the user and looks like this ![Screenshot_3](https://user-images.githubusercontent.com/90603989/162782314-1c4e9791-bf22-4809-a787-59bec89c34ee.png)  
+## Day 18  
+i will try to create a new "Add New Expense" button so that the user has the ability to add a new one or to cancel if he wants to. In the ExpenseForm.js file i will be adding a new button using onClick. In NewExpense.js my code will be looking like this
 
 
 
