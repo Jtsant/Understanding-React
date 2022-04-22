@@ -17,7 +17,7 @@ Start by setting up the enviroment of Visual Studio Code using some extensions a
 and reviewing JavaScript Fundamentals such as Modules, Arrow Functions, Classes, Array functions  
 ## Day 2  
 Start by creating a new React project using Visual Studio Code. In order to create it i will need to download node.js and install the enviroment of create-react-app.  
-After using the commands npm install and npm run on the terminal the rpoject is ready to go. Firstly i'm clearing the source folder with all the unnecessary files.  
+After using the commands npm install and npm run on the terminal the project is ready to go. Firstly i'm clearing the source folder with all the unnecessary files.  
 An important note here is that the Index.js file in the source folder is the first file to be executed.  
 Another important note is the JSX extension in react which is HTML code inside JavaScript. JSX stands for JavaScriptXML and it makes it easier for us to write and add HTML in React.  
 React is all about components and how they interact with each other. The first component that i came across is in the index.js file  
