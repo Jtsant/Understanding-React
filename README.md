@@ -105,9 +105,8 @@ The last thing i will need is to pass the data points so that my chart takes for
 ## Day 20  
 In order to make my chart to show up correctly now and to pass on my data points i will create a new file in the Expenses folder calling it ExpensesChart.js. After constructing my file it looks like this ![Screenshot_1](https://user-images.githubusercontent.com/90603989/163222990-6037d672-b0d1-45f6-a5a5-84ff4956b95c.png)  
 After that in the Chart.js file i will pass on the values of the data points adding as well a total maximum. My Chart.js file then looks like this ![Screenshot_2](https://user-images.githubusercontent.com/90603989/163222981-6e2c85fe-ce4b-4051-9a3c-c54fd3b96d1e.png)  
-As the last step i will be importing my ExpensesChart in the Expenses.js file looking like that ![Screenshot_3](https://user-images.githubusercontent.com/90603989/163222986-fc9a65cb-da34-41ab-8922-31e9acd25953.png)  
-## Day 21  
-After some weeks off the project i focused on getting assesments for LinkedIn in JavaScript, HTML, Css and React itself. After successfully achieving good scores i will be focusing on the project again in order to finish it.  
+As the last step i will be importing my ExpensesChart in the Expenses.js file looking like that ![Screenshot_3](https://user-images.githubusercontent.com/90603989/163222986-fc9a65cb-da34-41ab-8922-31e9acd25953.png)   
+
 
 
 
